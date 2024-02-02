@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-  background-color: #F4F5FF;
+  background-color: black;
 }
 
 
@@ -141,28 +141,40 @@ footer .iot-dp {
   
 
 .schedule-content {
-    position: relative;
-    background-color: #ffffff;
-    height: 250px;
-    border-radius: 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: rgb(239, 178, 65);
+  height: 250px;
+  width: 850px;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin-left: 180px;
+  border: 5px solid white;
 }
+
+
 
 .pulse-content {
   padding-bottom: 10px;
-    background-color: #ffffff;
+    background-color: rgb(239, 178, 65);
     border-radius: 20px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     margin: 0px 12px;
+    margin-left: 200px;
+    width: 850px;
+    border: 5px solid white;
 
 }
 
 .temp-content {
   padding-bottom: 10px;
-    background-color: #ffffff;
+    background-color: rgb(239, 178, 65);
     border-radius: 20px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     margin: 0px 12px;
+    margin-left: 200px;
+    width: 850px;
+    border: 5px solid white;
+    
 
 }
 .heading {
@@ -175,6 +187,7 @@ footer .iot-dp {
   margin-bottom: 25px;
   margin-left: 15px;
   margin-top: 15px;
+  color: #f6f6ff;
 
 }
 
@@ -203,7 +216,7 @@ footer .iot-dp {
 .latest_pulse .title {
   font-size: 40px;
   font-weight: 600;
-
+ 
 }
 
 .prediction {
@@ -211,11 +224,12 @@ footer .iot-dp {
   display: flex;
   padding-top: 10px;
   padding-left: 10px;
-  width: 98%;
-  background-color: #ffffff;
+  width: 850px;
+  background-color: rgb(239, 178, 65);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 20px
-
+  border: 5px solid white;
+  border-radius: 20px;
+  margin-left: 200px;
 }
 
 .predText {
