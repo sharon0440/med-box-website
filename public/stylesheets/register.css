@@ -28,18 +28,22 @@ input {
 }
 
 .signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
     margin-top: 30px;
     width: 500px;
     padding: 20px;
     background-color: #28282B;
-
-
 }
+
 button {
+    margin-top: 10px;
     width: 100px;
 }
+
 
 .gender {
     background-color: #28282B;
@@ -49,4 +53,3 @@ button {
     width: 120px;
     border-radius: 50px;
 }
-
