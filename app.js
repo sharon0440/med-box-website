@@ -17,15 +17,16 @@ app.use(express.static(__dirname+'/public/'));
 app.use(favicon(__dirname+'/public/images/favicon.png'));
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBS4gqEC6nsXS7ErWfJv2_rNWAEIdwkBq4",
-    authDomain: "medicalbox-8b9aa.firebaseapp.com",
-    databaseURL: "https://medicalbox-8b9aa-default-rtdb.firebaseio.com",
-    projectId: "medicalbox-8b9aa",
-    storageBucket: "medicalbox-8b9aa.appspot.com",
-    messagingSenderId: "66369225264",
-    appId: "1:66369225264:web:4b0634ed0c83c7ff7ee3f5",
-    measurementId: "G-EJEG4TYZDQ"
+    apiKey: "AIzaSyC2RwaUjNVs3OQ8io604aXeVuBrHmOxvMA",
+    authDomain: "medical-box-529d2.firebaseapp.com",
+    databaseURL: "https://medical-box-529d2-default-rtdb.firebaseio.com",
+    projectId: "medical-box-529d2",
+    storageBucket: "medical-box-529d2.appspot.com",
+    messagingSenderId: "681918339509",
+    appId: "1:681918339509:web:064f737fc5f286237721fc",
+    measurementId: "G-N6TLJWJFQ9"
   };
+  
 
 const fireStoreApp = initializeApp(firebaseConfig);
 
